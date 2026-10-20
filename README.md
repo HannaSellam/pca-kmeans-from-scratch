@@ -53,7 +53,7 @@ from 0 to 255. Numeric labels 0, 1 and 3 have 785, 863 and 887 images. Input
 checks completed successfully. Class names are not inferred without source confirmation.
 
 The exact original source, subset and redistribution terms are not confirmed.
-The CSV files are not included in this repository and must be supplied locally.
+The CSV files are included in the data directory.
 They must retain their original row alignment. See [data instructions](data/README.md).
 
 ## How to Run
@@ -67,8 +67,7 @@ python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
-Before launching, copy the coursework files to `data/pixels.csv` and
-`data/labels.csv`. Open `analysis.ipynb`, select the environment kernel and run
+The required CSV files are available at `data/pixels.csv` and `data/labels.csv`. Open `analysis.ipynb`, select the environment kernel and run
 all cells in order. Run JupyterLab from the repository root so imports and relative
 paths resolve. The supplied notebook records a complete successful run; environment installation
 steps were not independently reproduced by the reviewer.

@@ -1,5 +1,0 @@
-representation,dimensions,purity,iterations,converged
-Original pixels,784,0.5688362919132149,35,True
-PCA 2,2,0.5676528599605523,28,True
-PCA 25,25,0.5692307692307692,35,True
-PCA 50,50,0.5688362919132149,34,True

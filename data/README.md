@@ -1,13 +1,11 @@
-# Coursework data
+# Dataset
 
-Place the supplied files here, renamed exactly `pixels.csv` and `labels.csv`.
-The original notebooks read pixels as a CSV with a header and use the `label`
-column from the labels CSV. Each image is expected to have 784 pixel features.
+This directory contains the coursework data:
 
-The exact sample count, class distribution and missing values are checked when
-the notebook runs. Row alignment must be preserved when copying the files.
+- `pixels.csv`: 2,535 images represented by 784 pixel values each.
+- `labels.csv`: reference labels used for evaluation and visualization.
 
-The files were supplied for university coursework. Their original dataset
-source, subset selection and redistribution terms have not been verified.
-They are therefore excluded from Git tracking. The notebook requires local
-copies; this is currently a reproducibility limitation for other readers.
+Both files must retain the same row order.
+
+The data was supplied for university coursework. The original source
+and subset selection remain to be confirmed.

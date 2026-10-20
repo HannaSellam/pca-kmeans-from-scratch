@@ -123,15 +123,11 @@ differences may depend on local minima. Exact data provenance remains unresolved
 - How initialization and feature representation affect K-means.
 - Why integer arithmetic, component ordering and metric definitions matter.
 
-## Academic Context and Contributions
+## Academic Context
 
-Derived from submitted TP2 and TP3 notebooks and their teaching scaffold.
-The original TP3 explicitly supplies K-means and an evaluation helper from the
-previous session; supplied scaffolding is not claimed as independently authored.
-The exact division between student-written code and supplied helpers is not
-documented here; the project is presented as coursework adapted from this scaffold.
+This project was developed from undergraduate programming assignments
+in data analysis at Paris-Dauphine–PSL University, using a course-provided
+scaffold.
 
-Post-coursework cleanup was prepared with AI assistance: consolidating classes,
-float pixel arithmetic, descending component order, explicit purity terminology,
-fixed seeds, final-label reassignment and bounded-memory distance batches.
-The algorithmic scope remains PCA and K-means.
+The code was subsequently reorganized and corrected with AI assistance,
+while retaining the original focus on PCA and K-means.

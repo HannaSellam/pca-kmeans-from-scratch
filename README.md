@@ -67,8 +67,7 @@ python -m jupyterlab
 
 The required CSV files are available at `data/pixels.csv` and `data/labels.csv`. Open `analysis.ipynb`, select the environment kernel and run
 all cells in order. Run JupyterLab from the repository root so imports and relative
-paths resolve. The supplied notebook records a complete successful run; environment installation
-steps were not independently reproduced by the reviewer.
+paths resolve.
 
 ## Results
 

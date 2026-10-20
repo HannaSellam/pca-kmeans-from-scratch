@@ -1,7 +1,7 @@
 # PCA and K-means from Scratch
 
 Educational NumPy implementations of PCA and Lloyd K-means, adapted from
-undergraduate data-analysis coursework (TP2 and TP3) at Paris-Dauphine–PSL.
+undergraduate data-analysis coursework at Paris-Dauphine–PSL.
 
 ## Overview
 

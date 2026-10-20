@@ -9,9 +9,7 @@ This project studies dimensionality reduction, image reconstruction and clusteri
 on 28 × 28 clothing images. It preserves the scope of the original coursework
 while organizing the code into reusable classes and one analysis notebook.
 
-**Validation:** all seven code cells executed in order without recorded errors
-in the supplied notebook, using Python 3.14.7. Outputs and exported metrics were
-reviewed. The reviewer did not independently rerun the numerical experiment.
+**Validation:** The notebook includes saved outputs from a complete run using Python 3.14.7.
 
 ## Objective
 
@@ -32,7 +30,7 @@ uses three clusters, a fixed seed and a small set of PCA dimensions.
 ## Technologies
 
 Python, NumPy, pandas, Matplotlib and JupyterLab. Dependency versions are not pinned; the notebook does not record installed
-package versions. No Java is required.
+package versions.
 
 ## Repository Structure
 
